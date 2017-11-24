@@ -31,7 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: -apple-system, Helvetica, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -100,7 +100,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Helvetica;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -1283,23 +1283,31 @@ pre code {
   }
   .hf-feature-text-l {
 	padding: relative;
-    max-width: 55%;
+    max-width: 59%;
 	float: left;
-	padding-left: 10%;
+	padding-left: 20%;
 	padding-bottom: 5%;
   }
   .hf-feature-text-r {
+	padding: relative;
     max-width: 55%;
 	float: left;
 	padding-right: 10%;
 	padding-bottom: 5%;
   }
-  .hf-feature-h-l {
+  .hf-feature-h-r {
 	color: white;
 	padding: relative;
     max-width: 70%;
 	padding-top: 4%;
-	padding-left: 10%;
+	padding-right: 10%;
+  }
+  .hf-feature-h-l {
+	color: white;
+	padding: relative;
+    max-width: 60%;
+	padding-top: 4%;
+	padding-left: 20%;
   }
   .hf-about-text {
 	  font-size: 18px;
